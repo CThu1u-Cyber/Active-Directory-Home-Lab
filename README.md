@@ -86,7 +86,7 @@ And, again, abusing information disclosure by discovering domain admin creds in 
 <br />
 </p>
 <h2>Mitigation Steps:</h2>
-<p>
+<p align="center">
 Since the initial compromise was a Link Local Multicast Name Resolution (LLMNR) poisoning scheme, we want to disable LLMNR by adding a GPO and enforcing it on the domain. On the workstation, we can run 'gpoupdate /force' to update policies on it: <br /r>
 <img src="images/gpomitigation.png" height="80%" width="80%" alt=""/>
 <br />
